@@ -1,4 +1,4 @@
-Feature: Buy a SIM Page check
+Feature: Buy a Mobile SIM Page check
 
   @Optus_shop
   Scenario Outline: Buy a SIM page for component validation
@@ -24,7 +24,7 @@ Feature: Buy a SIM Page check
       | Low     |
 
   @Optus_shop_purchase
-  Scenario:  Buy a SIM page for component validation
+  Scenario:  Buy a Mobile SIM page for component validation
     Given I load "https://www.optus.com.au/" in the browser
     When Optus home page is loaded in the browser
     Then I click on "Shop" button
@@ -74,7 +74,7 @@ Feature: Buy a SIM Page check
 #    And I am in the confirm order page
 
   @Optus_shop_purchase_2
-  Scenario:  Buy a SIM page for component validation
+  Scenario:  Buy a Mobile SIM page for component validation
     Given I load "https://www.optus.com.au/" in the browser
     When Optus home page is loaded in the browser
     Then I click on "Shop" button
